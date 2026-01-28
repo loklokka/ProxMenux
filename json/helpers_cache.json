@@ -3465,6 +3465,18 @@
     }
   },
   {
+    "name": "nodecast-tv",
+    "slug": "nodecast-tv",
+    "desc": "nodecast-tv is a modern, web-based IPTV player featuring Live TV, EPG, Movies (VOD), and Series support. Built with performance and user experience in mind.",
+    "script": "ct/nodecast-tv.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/nodecast-tv.sh",
+    "categories": [
+      13
+    ],
+    "notes": [],
+    "type": "ct"
+  },
+  {
     "name": "Notifiarr",
     "slug": "notifiarr",
     "desc": "Notifiarr is a purpose built system to bring many applications together to manage and customize notifications via Discord. You can monitor many aspects of your network(s), be notified of downtime, be notified of health issues, etc",
