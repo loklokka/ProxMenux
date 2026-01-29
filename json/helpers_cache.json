@@ -726,7 +726,8 @@
       4
     ],
     "notes": [
-      "With an option to configure cloudflared as a DNS-over-HTTPS (DoH) proxy"
+      "After install, run: cloudflared tunnel login && cloudflared tunnel create <NAME>",
+      "Or create tunnel via Cloudflare Zero Trust Dashboard"
     ],
     "type": "ct"
   },
@@ -2285,7 +2286,8 @@
     "notes": [
       "With Privileged/Unprivileged Hardware Acceleration Support",
       "FFmpeg path: /usr/lib/jellyfin-ffmpeg/ffmpeg",
-      "For NVIDIA graphics cards, you'll need to install the same drivers in the container that you did on the host. In the container, run the driver installation script and add the CLI arg --no-kernel-module"
+      "For NVIDIA graphics cards, you'll need to install the same drivers in the container that you did on the host. In the container, run the driver installation script and add the CLI arg --no-kernel-module",
+      "Log rotation is configured in /etc/logrotate.d/jellyfin. To reduce verbosity, change MinimumLevel in /etc/jellyfin/logging.json to Warning or Error (disables fail2ban auth logging)."
     ],
     "type": "ct"
   },
@@ -5932,7 +5934,8 @@
       8
     ],
     "notes": [
-      "Show Login Credentials, type `cat ~/valkey.creds` in the LXC console"
+      "Show Login Credentials, type `cat ~/valkey.creds` in the LXC console",
+      "Alpines Valkey package is compiled without TLS support. For TLS, use the Debian-based valkey script instead."
     ],
     "type": "ct"
   },
