@@ -6297,6 +6297,18 @@
     }
   },
   {
+    "name": "Wishlist",
+    "slug": "wishlist",
+    "desc": "Wishlist is a self-hosted wishlist application that you can share with your friends and family. You no longer have to wonder what to get your family for the holidays, simply check their wishlist and claim any available item!",
+    "script": "ct/wishlist.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/wishlist.sh",
+    "categories": [
+      12
+    ],
+    "notes": [],
+    "type": "ct"
+  },
+  {
     "name": "Wizarr",
     "slug": "wizarr",
     "desc": "Wizarr is an automatic user invitation system for Plex, Jellyfin and Emby. Create a unique link and share it to a user and they will automatically be invited to your media Server",
@@ -6319,6 +6331,20 @@
       21
     ],
     "notes": [],
+    "type": "ct"
+  },
+  {
+    "name": "WriteFreely",
+    "slug": "writefreely",
+    "desc": "WriteFreely is free and open source software for easily publishing writing on the web with support for the ActivityPub protocol. Use it to start a personal blog \u2014 or an entire community.",
+    "script": "ct/writefreely.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/writefreely.sh",
+    "categories": [
+      12
+    ],
+    "notes": [
+      "After installation execute `writefreely user create --admin <username>:<password>` to create your user."
+    ],
     "type": "ct"
   },
   {
