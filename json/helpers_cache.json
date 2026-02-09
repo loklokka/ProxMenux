@@ -519,7 +519,8 @@
       7
     ],
     "notes": [
-      "The Disk space initially allocated by the script is only a placeholder, as we can't know how much space you will ever need. You should increase it to match your workload."
+      "The Disk space initially allocated by the script is only a placeholder, as we can't know how much space you will ever need. You should increase it to match your workload.",
+      "Please copy your `BICHON_ENCRYPT_PASSWORD` from `/opt/bichon/bichon.env` to a safe place."
     ],
     "type": "ct",
     "default_credentials": {
@@ -3490,15 +3491,11 @@
       21
     ],
     "notes": [
+      "On first visit, the setup wizard will guide you to create an admin account and configure ACME email.",
       "Nginx runs on ports 80/443, Nginx UI management interface on port 9000.",
-      "SSL certificates can be managed automatically with Let's Encrypt integration.",
-      "Initial Login data: `cat ~/nginx-ui.creds`"
+      "SSL certificates can be managed automatically with Let's Encrypt integration."
     ],
-    "type": "ct",
-    "default_credentials": {
-      "username": "admin",
-      "password": null
-    }
+    "type": "ct"
   },
   {
     "name": "Nginx Proxy Manager",
@@ -3510,13 +3507,10 @@
       21
     ],
     "notes": [
+      "On first launch, a setup wizard will guide you through creating an admin account. There are no default credentials.",
       "You can install the specific one certbot you prefer, or you can Running /app/scripts/install-certbot-plugins within the Nginx Proxy Manager (NPM) LXC shell will install many common plugins. Important: This script does not install all Certbot plugins, as some require additional, external system dependencies (like specific packages for certain DNS providers). These external dependencies must be manually installed within the LXC container before you can successfully install and use the corresponding Certbot plugin. Consult the plugin's documentation for required packages."
     ],
-    "type": "ct",
-    "default_credentials": {
-      "username": "admin@example.com",
-      "password": "changeme"
-    }
+    "type": "ct"
   },
   {
     "name": "Intel e1000e NIC Offloading Fix",
