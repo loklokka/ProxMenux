@@ -4599,16 +4599,13 @@
     "name": "Prometheus Paperless NGX Exporter",
     "slug": "prometheus-paperless-ngx-exporter",
     "desc": "Prometheus metrics exporter for Paperless-NGX, a document management system transforming physical documents into a searchable online archive. The exporter relies on Paperless' REST API.",
-    "script": "ct/prometheus-paperless-ngx-exporter.sh",
-    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/prometheus-paperless-ngx-exporter.sh",
+    "script": "tools/addon/prometheus-paperless-ngx-exporter.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/addon/prometheus-paperless-ngx-exporter.sh",
     "categories": [
       9
     ],
-    "notes": [
-      "Please adjust the Paperless URL in the systemd unit file: /etc/systemd/system/prometheus-paperless-ngx-exporter.service",
-      "Please adjust the Paperless authentication token in the configuration file: /etc/prometheus-paperless-ngx-exporter/paperless_auth_token_file"
-    ],
-    "type": "ct"
+    "notes": [],
+    "type": "addon"
   },
   {
     "name": "Prometheus Proxmox VE Exporter",
