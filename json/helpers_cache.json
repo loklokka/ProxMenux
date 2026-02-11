@@ -1301,6 +1301,18 @@
     "type": "ct"
   },
   {
+    "name": "Draw.IO",
+    "slug": "drawio",
+    "desc": "draw.io is a configurable diagramming and whiteboarding application, jointly owned and developed by draw.io Ltd (previously named JGraph) and draw.io AG.",
+    "script": "ct/drawio.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/drawio.sh",
+    "categories": [
+      12
+    ],
+    "notes": [],
+    "type": "ct"
+  },
+  {
     "name": "Duplicati",
     "slug": "duplicati",
     "desc": "Duplicati is a free, open-source backup solution that offers zero-trust, fully encrypted backups for your data.",
