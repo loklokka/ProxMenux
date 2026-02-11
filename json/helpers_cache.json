@@ -2668,7 +2668,7 @@
       21
     ],
     "notes": [
-      "Kutt needs so be served with an SSL certificate for its login to work. During install, you will be prompted to choose if you want to have Caddy installed for SSL termination or if you want to use your own reverse proxy (in that case point your reverse porxy to port 3000)."
+      "Kutt needs so be served with an SSL certificate for its login to work. During install, you will be prompted to choose if you want to have Caddy installed for SSL termination or if you want to use your own reverse proxy (in that case point your reverse proxy to port 3000)."
     ],
     "type": "ct"
   },
