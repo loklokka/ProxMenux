@@ -5422,6 +5422,7 @@
       8
     ],
     "notes": [
+      "SQL Server (2025) SQLPAL is incompatible with Proxmox VE 9 (Kernel 6.12+) in LXC containers. Use a VM instead or the SQL-Server 2022 LXC.",
       "If you choose not to run the installation setup, execute: `/opt/mssql/bin/mssql-conf setup` in LXC shell.",
       "You can setup the admin account 'SA' during installation",
       "Make sure you disable the SA account if you intend to use this in production!",
