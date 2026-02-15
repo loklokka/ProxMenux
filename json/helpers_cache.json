@@ -2370,18 +2370,6 @@
     "type": "ct"
   },
   {
-    "name": "Jellyseerr",
-    "slug": "jellyseerr",
-    "desc": "Jellyseerr is a free and open source software application for managing requests for your media library. It is a a fork of Overseerr built to bring support for Jellyfin & Emby media servers.",
-    "script": "ct/jellyseerr.sh",
-    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/jellyseerr.sh",
-    "categories": [
-      14
-    ],
-    "notes": [],
-    "type": "ct"
-  },
-  {
     "name": "Jellystat",
     "slug": "jellystat",
     "desc": "A free and open source statistics app for Jellyfin",
@@ -4029,18 +4017,6 @@
     "type": "ct"
   },
   {
-    "name": "Overseerr",
-    "slug": "overseerr",
-    "desc": "Overseerr is a request management and media discovery tool built to work with your existing Plex ecosystem.",
-    "script": "ct/overseerr.sh",
-    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/overseerr.sh",
-    "categories": [
-      14
-    ],
-    "notes": [],
-    "type": "ct"
-  },
-  {
     "name": "Owncast",
     "slug": "owncast",
     "desc": "Owncast is a free and open source live video and web chat server for use with existing popular broadcasting software.",
@@ -5163,6 +5139,18 @@
     "notes": [
       "Initial admin email and password: `cat ~/seelf.creds`"
     ],
+    "type": "ct"
+  },
+  {
+    "name": "Seerr",
+    "slug": "seerr",
+    "desc": "Open-source media request and discovery manager for Jellyfin, Plex, and Emby. Unified version of Overseerr and Jellyseerr.",
+    "script": "ct/seerr.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/seerr.sh",
+    "categories": [
+      13
+    ],
+    "notes": [],
     "type": "ct"
   },
   {
