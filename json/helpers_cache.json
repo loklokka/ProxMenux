@@ -1327,6 +1327,24 @@
     "type": "ct"
   },
   {
+    "name": "ebusd",
+    "slug": "ebusd",
+    "desc": "ebusd is a daemon for handling communication with eBUS devices connected to a 2-wire `energy bus` used by numerous heating systems.",
+    "script": "ct/ebusd.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/ebusd.sh",
+    "categories": [
+      16
+    ],
+    "notes": [
+      "For required post installation actions, checkout: `https://github.com/community-scripts/ProxmoxVE/discussions/11352`"
+    ],
+    "type": "ct",
+    "default_credentials": {
+      "username": "root",
+      "password": null
+    }
+  },
+  {
     "name": "Element Synapse",
     "slug": "elementsynapse",
     "desc": "Synapse is an open source Matrix homeserver implementation, written and maintained by Element. Matrix is the open standard for secure and interoperable real time communications. You can directly run and manage the source code in this repository, available under an AGPL license. There is no support provided from Element unless you have a subscription.",
