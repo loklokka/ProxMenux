@@ -2796,6 +2796,24 @@
     "type": "ct"
   },
   {
+    "name": "linkding",
+    "slug": "linkding",
+    "desc": "linkding is a self-hosted bookmark manager that is designed to be minimal, fast, and easy to set up. It features a clean UI, tag-based organization, bulk editing, Markdown notes, read it later functionality, sharing, REST API, and browser extensions for Firefox and Chrome.",
+    "script": "ct/linkding.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/linkding.sh",
+    "categories": [
+      12
+    ],
+    "notes": [
+      "Admin credentials are stored in /opt/linkding/.env"
+    ],
+    "type": "ct",
+    "default_credentials": {
+      "username": "admin",
+      "password": null
+    }
+  },
+  {
     "name": "LinkStack",
     "slug": "linkstack",
     "desc": "LinkStack is an open-source, self-hosted alternative to Linktree, allowing users to create a customizable profile page to share multiple links, hosted on their own server.",
@@ -3859,7 +3877,7 @@
       11
     ],
     "notes": [
-      "Valid TLS certificates and fully-qualified domain names behind a reverse proxy (Caddy) for 3 services - OpenCloud, Collabora, and WOPI are **REQUIRED**",
+      "Valid TLS certificates and fully-qualified domain names behind a reverse proxy (Caddy) for 3 services - OpenCloud (port: 9200), Collabora (port: 9980), and WOPI (port: 9300) are **REQUIRED**",
       "Forgot your admin password? Check `admin_password` in the 'idm' section in `/etc/opencloud/opencloud.yaml`",
       "**Optional External Apps**: extract zip archives from App Store to `/etc/opencloud/web/assets/apps`",
       "**Optional CalDAV and CardDAV**: requires separate Radicale install. Edit and rename `/etc/opencloud/proxy.yaml.bak` and change your Radicale config to use `http_x_remote_user` as the auth method",
@@ -5020,6 +5038,18 @@
     "notes": [
       "LiveReload is on port: 35729"
     ],
+    "type": "ct"
+  },
+  {
+    "name": "RomM",
+    "slug": "romm",
+    "desc": "RomM (ROM Manager) allows you to scan, enrich, browse and play your game collection with a clean and responsive interface. Support for multiple platforms, various naming schemes, and custom tags.",
+    "script": "ct/romm.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/romm.sh",
+    "categories": [
+      24
+    ],
+    "notes": [],
     "type": "ct"
   },
   {
@@ -6467,7 +6497,9 @@
     "categories": [
       12
     ],
-    "notes": [],
+    "notes": [
+      "When using a reverse proxy with this script, please edit the`ORIGIN` value in `/opt/wishlist/.env` to point to your new URL, otherwise creating an admin account or logging in will not work."
+    ],
     "type": "ct"
   },
   {
