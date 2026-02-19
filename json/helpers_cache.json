@@ -5859,6 +5859,20 @@
     "type": "ct"
   },
   {
+    "name": "TrueNAS Community Edition",
+    "slug": "truenas-community-edition",
+    "desc": "TrueNAS Community Edition is the world's most deployed storage software. Free, flexible and build on OpenZFS with Docker.",
+    "script": "vm/truenas-vm.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/vm/truenas-vm.sh",
+    "categories": [
+      2
+    ],
+    "notes": [
+      "Once the script finishes, proceed with the OS installation via the console. For more details, please refer to this discussion: `https://github.com/community-scripts/ProxmoxVE/discussions/11344`"
+    ],
+    "type": "vm"
+  },
+  {
     "name": "Tududi",
     "slug": "tududi",
     "desc": "Self-hosted task management with functional programming architecture, hierarchical organization, and multi-language support.",
