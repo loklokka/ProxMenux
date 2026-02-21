@@ -642,6 +642,21 @@
     "type": "ct"
   },
   {
+    "name": "Calibre-Web",
+    "slug": "calibre-web",
+    "desc": "Web app for browsing, reading and downloading eBooks from a Calibre database. Provides an attractive interface with mobile support, user management, and eBook conversion capabilities.",
+    "script": "ct/calibre-web.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/calibre-web.sh",
+    "categories": [
+      4
+    ],
+    "notes": [
+      "No credentials are set by this script. Complete setup and create credentials in the first-run wizard.",
+      "Upload your Calibre library metadata.db during first setup wizard."
+    ],
+    "type": "ct"
+  },
+  {
     "name": "CasaOS",
     "slug": "casaos",
     "desc": "CasaOS is a software that aims to make it easy for users to create a personal cloud system at home. It uses the Docker ecosystem to provide a simple, user-friendly experience for managing various applications and services.",
@@ -5527,6 +5542,18 @@
     "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/stylus.sh",
     "categories": [
       4
+    ],
+    "notes": [],
+    "type": "ct"
+  },
+  {
+    "name": "Sure",
+    "slug": "sure",
+    "desc": "The personal finance app for everyone. NOT affiliated with or endorsed by Maybe Finance Inc..",
+    "script": "ct/sure.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/sure.sh",
+    "categories": [
+      23
     ],
     "notes": [],
     "type": "ct"
