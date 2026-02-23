@@ -651,10 +651,13 @@
       4
     ],
     "notes": [
-      "No credentials are set by this script. Complete setup and create credentials in the first-run wizard.",
       "Upload your Calibre library metadata.db during first setup wizard."
     ],
-    "type": "ct"
+    "type": "ct",
+    "default_credentials": {
+      "username": "admin",
+      "password": "admin123"
+    }
   },
   {
     "name": "CasaOS",
@@ -2231,18 +2234,6 @@
       "A backup is rendered ineffective when it remains stored on the host"
     ],
     "type": "pve"
-  },
-  {
-    "name": "Huntarr",
-    "slug": "huntarr",
-    "desc": "Huntarr is a tool that automates the search for missing or low-quality media content in your collection. It works seamlessly with applications like Sonarr, Radarr, Lidarr, Readarr, and Whisparr, enhancing their functionality with continuous background scans to identify and update missed or outdated content. Through a user-friendly web interface accessible on port 9705, Huntarr provides real-time statistics, log views, and extensive configuration options. The software is especially useful for users who want to keep their media library up to date by automatically searching for missing episodes or higher-quality versions. Huntarr is well-suited for self-hosted environments and can easily run in LXC containers or Docker setups.",
-    "script": "ct/huntarr.sh",
-    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/huntarr.sh",
-    "categories": [
-      14
-    ],
-    "notes": [],
-    "type": "ct"
   },
   {
     "name": "HyperHDR",
@@ -5449,6 +5440,32 @@
     "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/sonarr.sh",
     "categories": [
       14
+    ],
+    "notes": [],
+    "type": "ct"
+  },
+  {
+    "name": "Sonobarr",
+    "slug": "sonobarr",
+    "desc": "Sonobarr marries your existing Lidarr library with Last.fm\u2019s discovery graph to surface artists you'll actually like. It runs as a Flask + Socket.IO application, ships with a polished Bootstrap UI, and includes admin tooling so folks can share a single instance safely.",
+    "script": "ct/sonobarr.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/sonobarr.sh",
+    "categories": [
+      14
+    ],
+    "notes": [
+      "Default generated admin password is in the env file (sonobarr_superadmin_password)"
+    ],
+    "type": "ct"
+  },
+  {
+    "name": "SparkyFitness",
+    "slug": "sparkyfitness",
+    "desc": "A self-hosted, privacy-first alternative to MyFitnessPal. Track nutrition, exercise, body metrics, and health data while keeping full control of your data.",
+    "script": "ct/sparkyfitness.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/sparkyfitness.sh",
+    "categories": [
+      9
     ],
     "notes": [],
     "type": "ct"
