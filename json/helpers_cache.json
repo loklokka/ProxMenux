@@ -288,6 +288,24 @@
     "type": "ct"
   },
   {
+    "name": "Arcane",
+    "slug": "arcane",
+    "desc": "Arcane is designed to be an easy and modern Docker management platform, built with everybody in mind. The goal of Arcane is to be built for and by the community to make sure nobody feels left out or behind with their specific features or processes. ",
+    "script": "tools/addon/arcane.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/addon/arcane.sh",
+    "categories": [
+      3
+    ],
+    "notes": [
+      "This is an addon script intended to be used on top of an existing Docker container."
+    ],
+    "type": "addon",
+    "default_credentials": {
+      "username": "arcane",
+      "password": "arcane-admin"
+    }
+  },
+  {
     "name": "ArchiveBox",
     "slug": "archivebox",
     "desc": "ArchiveBox is an open source tool that lets organizations & individuals archive both public & private web content while retaining control over their data. It can be used to save copies of bookmarks, preserve evidence for legal cases, backup photos from FB/Insta/Flickr or media from YT/Soundcloud/etc., save research papers, and more...",
