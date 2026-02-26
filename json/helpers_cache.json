@@ -2306,7 +2306,8 @@
       "During installation, you will be prompted with the option to install Intel OpenVINO for hardware-accelerated machine-learning. If you opt in, increase your LXC RAM after installation, as OpenVINO is memory-intensive",
       "HW-accelerated video transcoding is supported, but must be enabled in Immich Settings",
       "To change upload location, edit 'IMMICH_MEDIA_LOCATION' in `/opt/immich/.env`, retarget the symlink 'upload' in /opt/immich/app and /opt/immich/app/machine-learning to your new upload location, copy the default upload location `/opt/immich/upload` and its contents to the new upload location, confirm that the new upload location and its contents are owned by `immich:immich`, and restart the Immich server. See `https://github.com/community-scripts/ProxmoxVE/discussions/5075` for more information.",
-      "Logs: `/var/log/immich`"
+      "Logs: `/var/log/immich`",
+      "During first install, 5 custom libraries need to be compiled from source. Depending on your CPU, this can take anywhere between 15 minutes and 2 hours. Please be patient. Touch grass or something."
     ],
     "type": "ct"
   },
@@ -2648,6 +2649,22 @@
       "username": "tmpadm",
       "password": "admin123"
     }
+  },
+  {
+    "name": "Kima-Hub",
+    "slug": "kima-hub",
+    "desc": "Self-hosted, on-demand audio streaming platform with AI-powered vibe matching, mood detection, smart playlists, and Lidarr/Audiobookshelf integration.",
+    "script": "ct/kima-hub.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/kima-hub.sh",
+    "categories": [
+      13
+    ],
+    "notes": [
+      "First user to register becomes the administrator.",
+      "Mount your music library to /music in the container.",
+      "Audio analysis (mood/vibe detection) requires significant RAM (2-4GB per worker)."
+    ],
+    "type": "ct"
   },
   {
     "name": "Kimai",
