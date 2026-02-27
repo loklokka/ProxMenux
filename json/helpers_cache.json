@@ -5632,6 +5632,22 @@
     }
   },
   {
+    "name": "Strapi",
+    "slug": "strapi",
+    "desc": "Strapi is a leading open-source headless CMS that enables developers to build powerful APIs quickly. It features a flexible content structure with customizable content types, supporting both REST and GraphQL APIs. The intuitive admin panel allows non-technical users to manage content easily, while developers can extend functionality through plugins. Built on Node.js, Strapi offers role-based access control, media library management, and internationalization support out of the box.",
+    "script": "ct/strapi.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/strapi.sh",
+    "categories": [
+      12
+    ],
+    "notes": [
+      "First-time setup requires creating an admin account at http://IP:1337/admin",
+      "Default installation uses SQLite. For production use, consider configuring PostgreSQL or MySQL.",
+      "Building the admin panel requires 4GB RAM. Container may take 10-15 minutes to fully initialize."
+    ],
+    "type": "ct"
+  },
+  {
     "name": "Streamlink WebUI",
     "slug": "streamlink-webui",
     "desc": "a simple web-ui to the well-known streamlink cli application, which allows you to save twitch streams to your local disk.",
