@@ -4206,21 +4206,6 @@
     "type": "ct"
   },
   {
-    "name": "Palmr",
-    "slug": "palmr",
-    "desc": "Palmr is a fast and secure platform for sharing files, built with performance and privacy in mind.",
-    "script": "ct/palmr.sh",
-    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/palmr.sh",
-    "categories": [
-      11
-    ],
-    "notes": [
-      "To use a bind mount for storage, create symlinks to your mount for both `uploads` and `temp-uploads` in `/opt/palmr_data`, and uncomment `CUSTOM_PATH` to add the path to your bind mount",
-      "To use Palmr with a reverse proxy, uncomment `SECURE_SITE` in `/opt/palmr/apps/server/.env`"
-    ],
-    "type": "ct"
-  },
-  {
     "name": "Pangolin",
     "slug": "pangolin",
     "desc": "Pangolin securely routes traffic over WireGuard tunnels to any private network. It works like a reverse proxy that spans multiple networks \u2014 no public IPs, DNS setup, or certificates required.",
