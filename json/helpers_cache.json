@@ -158,20 +158,6 @@
     "type": "ct"
   },
   {
-    "name": "Alpine-Tinyauth",
-    "slug": "alpine-tinyauth",
-    "desc": "Tinyauth is a simple authentication middleware that adds simple username/password login or OAuth with Google, Github and any generic provider to all of your docker apps.",
-    "script": "ct/alpine-tinyauth.sh",
-    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/alpine-tinyauth.sh",
-    "categories": [
-      6
-    ],
-    "notes": [
-      "The default credentials are located in `/opt/tinyauth/credentials.txt`."
-    ],
-    "type": "ct"
-  },
-  {
     "name": "Alpine",
     "slug": "alpine",
     "desc": "A security-oriented, lightweight Linux distribution based on musl and BusyBox.\r\nBy default, the root password is set to alpine. If you choose to use advanced settings, you will need to define a password, autologin is currently unavailable.",
@@ -5945,6 +5931,20 @@
     }
   },
   {
+    "name": "Tinyauth",
+    "slug": "tinyauth",
+    "desc": "Tinyauth is a simple authentication middleware that adds simple username/password login or OAuth with Google, Github and any generic provider to all of your docker apps.",
+    "script": "ct/tinyauth.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/tinyauth.sh",
+    "categories": [
+      6
+    ],
+    "notes": [
+      "The default credentials are located in `/opt/tinyauth/credentials.txt`."
+    ],
+    "type": "ct"
+  },
+  {
     "name": "Traccar",
     "slug": "traccar",
     "desc": "Traccar is an open source GPS tracking system. It supports more than 200 GPS protocols and more than 2000 models of GPS tracking devices.",
@@ -6260,20 +6260,6 @@
       4
     ],
     "notes": [],
-    "type": "ct"
-  },
-  {
-    "name": "UniFi Network Server",
-    "slug": "unifi",
-    "desc": "UniFi Network Server is a software that helps manage and monitor UniFi networks (Wi-Fi, Ethernet, etc.) by providing an intuitive user interface and advanced features. It allows network administrators to configure, monitor, and upgrade network devices, as well as view network statistics, client devices, and historical events. The aim of the application is to make the management of UniFi networks easier and more efficient.",
-    "script": "ct/unifi.sh",
-    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/unifi.sh",
-    "categories": [
-      4
-    ],
-    "notes": [
-      "For non-AVX CPUs, MongoDB 4.4 is installed. Please note this is a legacy solution that may present security risks and could become unsupported in future updates."
-    ],
     "type": "ct"
   },
   {
