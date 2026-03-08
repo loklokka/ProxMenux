@@ -2317,6 +2317,20 @@
     "type": "ct"
   },
   {
+    "name": "ImmichFrame",
+    "slug": "immichframe",
+    "desc": "ImmichFrame is a digital photo frame web application that connects to your Immich server and displays your photos as a fullscreen slideshow.",
+    "script": "ct/immichframe.sh",
+    "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/immichframe.sh",
+    "categories": [
+      13
+    ],
+    "notes": [
+      "After installation, edit `/opt/immichframe/Config/Settings.yml` and set ImmichServerUrl and ApiKey. Then restart the service with `systemctl restart immichframe`."
+    ],
+    "type": "ct"
+  },
+  {
     "name": "Infisical",
     "slug": "infisical",
     "desc": "Secrets, certificates, and access management on autopilot. All-in-one platform to securely manage application secrets, certificates, SSH keys, and configurations across your team and infrastructure.",
