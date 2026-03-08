@@ -1537,7 +1537,7 @@
   },
   {
     "name": "PVE LXC Execute Command",
-    "slug": "lxc-execute",
+    "slug": "execute",
     "desc": "This script allows administrators to execute a custom command inside one or multiple LXC containers on a Proxmox VE node. Containers can be selectively excluded via an interactive checklist. If a container is stopped, the script will automatically start it, run the command, and then shut it down again. Only Debian and Ubuntu based containers are supported.",
     "script": "tools/pve/execute.sh",
     "script_url": "https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/execute.sh",
